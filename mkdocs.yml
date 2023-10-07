@@ -1,0 +1,49 @@
+site_name: Learn OPA
+site_url: https://www.patashale.in/learn-opa/
+site_author: Patashale™
+site_description: Learn everything about Open Policy Agent(OPA) here at Patashale™.
+repo_url: https://github.com/patashale/learn-opa
+repo_name: patashale/learn-opa
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.footer
+    - navigation.tabs
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/patashale
+      name: Patashale™ on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/patashale
+      name: Patashale™ on GitHub
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@patashale
+      name: Patashale™ on Mastodon
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@patashale
+      name: Patashale™ on YouTube
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@learn-opa
+      name: Learn OPA on YouTube
+
+nav:
+  - Home: index.md
+
+copyright: Copyright &copy; 2023 Patashale™
