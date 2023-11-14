@@ -46,5 +46,27 @@ extra:
 
 nav:
   - Home: index.md
+  - Language:
+    - Overview: en/language/overview.md
+    - Development:
+      - Overview: en/testing/overview.md
+    - Testing:
+      - Overview: en/testing/overview.md
+  - Commands:
+    - Overview: en/commands/overview.md
+  - Orchestration:
+    - Overview: en/orchestration/overview.md
+    - Installation:  
+      - Overview: en/orchestration/installation/overview.md
+    - Security: 
+      - Overview: en/orchestration/security/overview.md
+    - Performance: 
+      - Overview: en/orchestration/performance/overview.md
+  - Examples:
+    - Overview: en/examples/overview.md
+    - Kubernetes:
+      - Overview: en/kubernetes/overview.md
+    - OpenTofu:
+      - Overview: en/opentofu/overview.md
 
 copyright: Copyright &copy; 2023 Patashale™
