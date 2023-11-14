@@ -9,3 +9,7 @@
     --md-accent-fg-color:#566366;
     --md-typeset-a-color:#FFFFFF;
 }
+
+div.md-content {
+    text-align: justify;
+}
