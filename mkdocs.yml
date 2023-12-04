@@ -21,6 +21,7 @@ theme:
   features:
     - navigation.footer
     - navigation.tabs
+    - content.tooltips
 
 extra_css:
   - stylesheets/extra.css
@@ -43,6 +44,24 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@learn-opa
       name: Learn OPA on YouTube
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - attr_list
+  - md_in_html
+  - pymdownx.snippets
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+  - social:
+      cards_layout_options:
+        background_color: "#566366"
 
 nav:
   - Home: index.md
